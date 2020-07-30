@@ -28,8 +28,9 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'google_drive', '~> 3.0'
 
+  spec.add_development_dependency 'codecov'
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 0.87.1'
-  spec.add_development_dependency 'simplecov'
+  spec.add_development_dependency 'simplecov', '~> 0.17.1'
 end
